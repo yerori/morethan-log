@@ -1,25 +1,29 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    name: "yerori",
+    image: "./images/meow.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
     bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    email: "p2416079@naver.com",
+    linkedin: "yelee Kang",
+    github: "yerori",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `wity.im`,
+      href: "https://wity.im",
+    },
+    {
+      name: `medifun`,
+      href: "https://medinomi.stayjanda.cloud/ko",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "Stack my Knowledge",
+    description: "welcome to my ambitious dev-log!",
     theme: "light", // ['light', 'dark', 'auto']
   },
 
@@ -41,13 +45,13 @@ const CONFIG = {
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env.GOOGLE_MEASUREMENT_ID || "",
+      // measurementId: process.env.GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
     enable: false,
     config: {
-      siteVerification: process.env.GOOGLE_SITE_VERIFICATION || "",
+      // siteVerification: process.env.GOOGLE_SITE_VERIFICATION || "",
     },
   },
   utterances: {
